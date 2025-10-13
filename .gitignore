@@ -1,0 +1,20 @@
+# Dart/Flutter
+.dart_tool/
+.packages
+.pub/
+build/
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+
+# OS
+Thumbs.db
+
+# VSCode settings
+.vscode/
+
+# PowerShell history
+ConsoleHost_history.txt
