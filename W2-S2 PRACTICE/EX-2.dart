@@ -85,23 +85,3 @@ void main() {
     print(e); // Output: Account with ID 100 already exists!
   }
 }
-
-/*
-UML (textual):
-
-Bank
-- name: String
-- _accounts: List<BankAccount>
--- createAccount(accountId: int, accountOwner: String): BankAccount
--- getAccount(accountId: int): BankAccount?
-
-BankAccount
-- accountId: int
-- accountOwner: String
-- _balance: double
--- balance(): double
--- withdraw(amount: double): void
--- credit(amount: double): void
-
-Relationship: Bank "composes" BankAccount (Bank has and manages accounts). Composition: Bank creates and owns BankAccount instances.
-*/
