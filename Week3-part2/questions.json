@@ -1,0 +1,27 @@
+{
+  "id": "quiz-001",
+  "questions": [
+    {
+      "id": "q1",
+      "title": "What is the capital of France?",
+      "choices": ["Paris", "London", "Rome", "Berlin"],
+      "goodChoice": "Paris",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "title": "What is 2 + 2?",
+      "choices": ["2", "3", "4", "5"],
+      "goodChoice": "4",
+      "points": 50
+    },
+    {
+      "id": "q3",
+      "title": "What color is the sky?",
+      "choices": ["Red", "Blue", "Green", "Yellow"],
+      "goodChoice": "Blue",
+      "points": 20
+    }
+  ],
+  "submissions": []
+}
