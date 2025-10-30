@@ -1,20 +1,81 @@
 # Dart/Flutter
+# ---------------------
+# Dart & Flutter
+# ---------------------
+
+# Dart tool directory
 .dart_tool/
+
+# Pub package symlink file
 .packages
-.pub/
+
+# Pub-cache (local) - usually not committed
+# (Do NOT ignore pubspec.lock for apps; keep it committed for reproducible builds.)
+# .pub/            # uncomment if you need to ignore pub downloads (rare)
+
+# Build outputs
 build/
+
+# Flutter generated files
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-emit
+.flutter-versions
+
+# Optional file created by some Flutter tools
+.metadata
+
+# ---------------------
+# IDEs / Editors
+# ---------------------
+
+# IntelliJ / Android Studio
 .idea/
-.vscode/
 *.iml
 *.ipr
 *.iws
-.DS_Store
 
-# OS
-Thumbs.db
-
-# VSCode settings
+# VSCode
 .vscode/
+
+# ---------------------
+# OS generated files
+# ---------------------
+
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon
 
 # PowerShell history
 ConsoleHost_history.txt
+
+# ---------------------
+# Logs, temporary and test output
+# ---------------------
+
+*.log
+*.tmp
+*.temp
+*.swp
+
+# Test coverage
+.dart_tool/package_config.json
+.packages
+.coverage
+coverage/
+
+# pub get results (optional)
+/.dart_tool/
+
+# Lock files: keep pubspec.lock for apps; remove the next line if you want to commit it
+# pubspec.lock
+
+# ---------------------
+# Misc
+# ---------------------
+
+# Generated plugin registrant files (if any)
+**/generated_plugin_registrant.dart
+
+# Ensure we don't accidentally ignore source files like lib/, test/, pubspec.yaml, or questions.json
