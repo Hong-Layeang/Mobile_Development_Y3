@@ -116,7 +116,6 @@ class WeatherCard extends StatelessWidget {
         ),
         child: Stack(
           children: [
-            // Decorative oval on the right side
             Positioned(
               right: -30,
               top: -20,
@@ -134,7 +133,6 @@ class WeatherCard extends StatelessWidget {
               padding: const EdgeInsets.all(20.0),
               child: Row(
                 children: [
-                  // Weather Icon with CircleAvatar
                   Container(
                     width: 70,
                     height: 70,
