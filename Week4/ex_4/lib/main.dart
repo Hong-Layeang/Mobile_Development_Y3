@@ -38,7 +38,12 @@ class MyApp extends StatelessWidget {
   }
 }
 
-
+///
+/// Parameters:
+/// - [text] (required): label to show.
+/// - [color] (optional): solid background color (defaults to [Colors.blue]).
+/// - [gradientColors] (optional): if provided, the card will use a left->right
+///   linear gradient using these colors instead of a solid color.
 class CustomCard extends StatelessWidget {
   final String text;
   final Color? color;
